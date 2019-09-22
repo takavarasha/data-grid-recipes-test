@@ -25,7 +25,7 @@ categories:
           metadata_overrides:
             - dataset_name: afghanistan-idps-returnees-needs-assessment-iom-dtm
               display_state: incomplete
-              comments: 
+              comments: Test metadata override
             - dataset_name: afghanistan-displacement-data-baseline-assessment-iom-dtm
               display_state: incomplete
               comments: 
