@@ -21,12 +21,16 @@ categories:
           include:
             - (name:afghanistan-idps-returnees-needs-assessment-iom-dtm)
             - (name:afghanistan-displacement-data-baseline-assessment-iom-dtm)
+            - (name:afghanistan-conflict-induced-displacements-in-2019)
           exclude:
           metadata_overrides:
             - dataset_name: afghanistan-idps-returnees-needs-assessment-iom-dtm
               display_state: incomplete
-              comments: Test metadata override
+              comments: 
             - dataset_name: afghanistan-displacement-data-baseline-assessment-iom-dtm
+              display_state: incomplete
+              comments: 
+            - dataset_name: afghanistan-conflict-induced-displacements-in-2019
               display_state: incomplete
               comments: 
 #REFUGEES POCs
@@ -52,9 +56,13 @@ categories:
         rules:
           include:
             - (name:afghanistan-idps-returnees-needs-assessment-iom-dtm)
+            - (name:afghanistan-displacement-data-baseline-assessment-iom-dtm)
           exclude:
           metadata_overrides:
             - dataset_name: afghanistan-idps-returnees-needs-assessment-iom-dtm
+              display_state: incomplete
+              comments: 
+            - dataset_name: afghanistan-displacement-data-baseline-assessment-iom-dtm
               display_state: incomplete
               comments: 
 #HUM PROFILE LOCATIONS
@@ -105,7 +113,7 @@ categories:
         description: Core data relating to the coordination of humanitarian activities in a country or crisis and an understanding of the context in which humanitarian activities are taking place.
         rules:
           include:
-            - (name:afghanistan-who-does-what-where-april-to-june-2019)
+            - (name:afghanistan-operational-presence)
           exclude:
           metadata_overrides:
 #AFFECTED AREAS
@@ -114,6 +122,7 @@ categories:
         description: Core data relating to the coordination of humanitarian activities in a country or crisis and an understanding of the context in which humanitarian activities are taking place.
         rules:
           include:
+            - (name:whole-of-afghanistan-assessment-hard-to-reach-dataset-august-2018)
           exclude:
           metadata_overrides:
 #CONFLICT EVENTS
@@ -243,8 +252,12 @@ categories:
         description: Data describing the administrative divisions as well as populated places and key physical geography and infrastructure.
         rules:
           include:
+            - (name:ourairports-afg)
           exclude:
           metadata_overrides:
+            - dataset_name: ourairports-afg
+              display_state: incomplete
+              comments: 
 
 #HEALTH AND EDUCATION
   - name: health_and_education
