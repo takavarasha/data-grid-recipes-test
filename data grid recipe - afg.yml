@@ -29,7 +29,7 @@ categories:
               comments: 
             - dataset_name: afghanistan-displacement-data-baseline-assessment-iom-dtm
               display_state: incomplete
-              comments: 
+              comments: data is not up-to-date
             - dataset_name: afghanistan-conflict-induced-displacements-in-2019
               display_state: incomplete
               comments: 
@@ -39,10 +39,14 @@ categories:
         description: Data about the people affected by a crisis.
         rules:
           include:
+            - (name:afghan-voluntary-repatriation)
             - (name:afghanistan-displacement-data-baseline-assessment-iom-dtm)
             - (name:pakistani-refugee-in-afghanistan-2017)
           exclude:
           metadata_overrides:
+            - dataset_name: afghan-voluntary-repatriation
+              display_state: incomplete
+              comments: 
             - dataset_name: afghanistan-displacement-data-baseline-assessment-iom-dtm
               display_state: incomplete
               comments: 
