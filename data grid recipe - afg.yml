@@ -59,10 +59,14 @@ categories:
         description: Data about the people affected by a crisis.
         rules:
           include:
+            - (name:afghan-voluntary-repatriation)
             - (name:afghanistan-idps-returnees-needs-assessment-iom-dtm)
             - (name:afghanistan-displacement-data-baseline-assessment-iom-dtm)
           exclude:
           metadata_overrides:
+            - dataset_name: afghan-voluntary-repatriation
+              display_state: incomplete
+              comments: 
             - dataset_name: afghanistan-idps-returnees-needs-assessment-iom-dtm
               display_state: incomplete
               comments: 
@@ -127,8 +131,12 @@ categories:
         rules:
           include:
             - (name:whole-of-afghanistan-assessment-hard-to-reach-dataset-august-2018)
+            - (name:reach-dataset-afghanistan-north-flood-response-evaluation-assessment)
           exclude:
           metadata_overrides:
+            - dataset_name: reach-dataset-afghanistan-north-flood-response-evaluation-assessment
+              display_state: incomplete
+              comments: The dataset does not cover all admin boundaries
 #CONFLICT EVENTS
       - name: coordination_context
         title: Coordination & Context
