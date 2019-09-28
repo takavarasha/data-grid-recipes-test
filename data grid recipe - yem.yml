@@ -261,6 +261,11 @@ categories:
           include:
             - (name:affected-schools-in-yemen)
           exclude:
+        metadata_overrides:
+          - dataset_name: affected-schools-in-yemen
+            display_state: incomplete
+            comments: Test commit message
+
 
 #POPULATION AND SOCIO-ECONOMIC INDICATORS
   - name: socio-economic
