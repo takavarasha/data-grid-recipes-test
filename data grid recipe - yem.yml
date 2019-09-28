@@ -264,7 +264,7 @@ categories:
         metadata_overrides:
           - dataset_name: affected-schools-in-yemen
             display_state: incomplete
-            comments: This dataset does not contain all areas
+            comments: Test commit message
 
 
 #POPULATION AND SOCIO-ECONOMIC INDICATORS
